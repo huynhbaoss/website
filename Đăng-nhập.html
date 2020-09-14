@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="jquery-3.5.1.min.js"></script>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style4.css" rel="stylesheet"/>
+        <script src="login.js"></script>
+    </head>
+    <body>
+        <div>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Đăng nhập</button> 
+        </div>
+            <div id="id01" class="modal">
+                <form class="modal-content " class="animate" method="POST">
+                        <h1>ĐĂNG NHẬP</h1>
+                        <button  onclick="document.getElementById('id01').style.display='none'" class="close" >x</button>
+                         <table class="container">
+                    <tr>
+                        <td>Tài khoản:</td>
+                        <td><input class="input" type="text" placeholder="Nhập tài khoản" required/></td>
+                    </tr>
+                    <tr>
+                        <td>Mật khẩu:</td>
+                        <td><input class="input" type="password" placeholder="Nhập mật khẩu" required/></td>
+                    </tr>
+                    </table>
+                    <input class="button" type="submit" value="Đăng nhập"/>
+                    <p><a href="#">Quên mật khẩu</a> hoặc <a href="Đăng ký.html">Đăng ký</a></p>                    
+                </form>
+            </div>
+    </body>
+</html>

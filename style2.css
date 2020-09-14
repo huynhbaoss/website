@@ -1,0 +1,82 @@
+
+nav {
+    background-color: darkorange;
+}
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+ul.menu > li {
+    border-right: 1px solid lightgrey;
+    min-width: 140px;
+    text-align: center;
+}
+ul.menu > li:last-child {
+    margin-right: 0;
+}
+ul.menu > li > a {
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+ul.menu > li > a:hover {
+    color: orange;
+    background-color: orangered;
+}
+h1 {
+    font-size: 50px;
+    color: darkgray;
+    text-shadow: 2px 2px black;
+}
+div.prize {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+section {
+    display: block;
+}
+#mainimg {
+    width: 25%;
+    border: 1px solid gray;
+}
+div.product {
+    display: flex;
+}
+div.product > img {
+    width: 5%;
+    cursor: pointer;
+    display: flex;
+}
+div.product > img:hover {
+    border: 1px solid orange;
+}
+img.type {
+    width: 100%;
+}
+img.type2 {
+    width: 35%;
+}
+h2 {
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+h3 {
+    color: darkgray;
+    text-shadow: 2px 2px black;
+}
+div.info {
+    font-size: 30px;
+}
+footer {
+    background-color: orange;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}

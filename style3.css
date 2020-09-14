@@ -1,0 +1,51 @@
+nav {
+    background-color: darkorange;
+}
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+ul.menu > li {
+    border-right: 1px solid lightgrey;
+    min-width: 140px;
+    text-align: center;
+}
+ul.menu > li:last-child {
+    margin-right: 0;
+}
+ul.menu > li > a {
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+ul.menu > li > a:hover {
+    color: orange;
+    background-color: orangered;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+input {
+    padding: 10px;
+}
+input.button {
+    background: orange;
+    color: white;
+    width: 100px;
+    padding: 7px;
+    border: 1px solid orange;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+footer {
+    background-color: orange;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}

@@ -1,0 +1,148 @@
+header {
+    background-color: black;
+}
+header > h1 {
+    border: solid orange;
+    padding: 10px;
+    margin: 10px;
+    color: darkorange;
+    text-align: center;
+}
+header > div {
+    border: 1px solid black;
+    text-align: center;
+    background-image: url(images/logo.png);
+    padding: 15px;
+    background-repeat: no-repeat;
+}
+header > div > span {
+    color: orange;
+    text-shadow: 2px 2px black;
+    font-size: 125px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header > input.search {
+    border-radius: 10px;
+    background-color: white;
+    width: 40%;
+    margin: 10px;
+    padding: 10px
+}
+button.icon{
+    background: orange;
+    color: white;
+    width: 45px;
+    padding: 7px;
+    border: 1px solid orange;
+    border-radius: 10px ;
+}
+a.register {
+    background: orange;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border: 1px solid orange;
+}
+a.register:hover {
+    opacity: 0.8;
+}
+nav {
+    background-color: darkorange;
+}
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+ul.menu > li {
+    border-right: 1px solid lightgrey;
+    min-width: 140px;
+    text-align: center;
+}
+ul.menu > li:last-child {
+    margin-right: 0;
+}
+ul.menu > li > a {
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+ul.menu > li > a:hover {
+    color: orange;
+    background-color: orangered;
+}
+div.product {
+    width: 20%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+div.info {
+    padding-top: 10px;
+}
+div.info > h3 {
+    font-size: 23px;
+}
+section > h1.name {
+    margin: 0;
+    font-size: 22px;
+    background: darkorange;
+    padding: 10px 20px;
+    color: #fff;
+    min-width: 100%;
+}
+a.link {
+    color: white;
+    float: right;
+    position: absolute;
+    right: 15px;
+    font-weight: 500 !important;
+}
+a.link:hover {
+    color: orange;
+}
+div.gototop a > i {
+    color: white;
+    background: darkorange;
+    padding: 10px;
+}
+div.gototop {
+    border-radius: 0;
+    bottom: 65px;
+    color: #fff;
+    font-size: 30px;
+    height: 48px;
+    line-height: 40px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    width: 48px;
+    position: fixed;
+    z-index: 2147483647;
+}
+div.my-element:hover{
+    transform: scale(1.1);
+}
+div.my-element {
+    transition: transform .5s;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+footer {    
+    background-color: orange;
+    color: black;
+    margin: 15px;
+    text-align: center;
+    padding: 5px;
+}

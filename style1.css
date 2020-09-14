@@ -1,0 +1,92 @@
+header > section > h1 {
+    color: orange;
+    text-shadow: 2px 2px black;
+}
+nav {
+    background-color: darkorange;
+}
+ul.menu {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+ul.menu > li {
+    border-right: 1px solid lightgrey;
+    min-width: 140px;
+    text-align: center;
+}
+ul.menu > li:last-child {
+    margin-right: 0;
+}
+ul.menu > li > a {
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+ul.menu > li > a:hover {
+    color: orange;
+    background-color: orangered;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+div.gototop a > i {
+    color: white;
+    background: darkorange;
+    padding: 10px;
+}
+div.gototop {
+    border-radius: 0;
+    bottom: 65px;
+    color: #fff;
+    font-size: 30px;
+    height: 48px;
+    line-height: 40px;
+    right: 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    width: 48px;
+    position: fixed;
+    z-index: 2147483647;
+}
+div.product {
+    width: 15%;
+    color: black;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+    margin: 25px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+div.product:hover {
+    border: 1px solid orangered;
+}
+div.info {
+    padding-top: 10px;
+}
+div.info > h3 {
+    font-size: 23px;
+}
+div.my-element:hover{
+    transform: scale(1.1);
+}
+div.my-element {
+    transition: transform .5s;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: orange;
+    color: black;
+    margin: 10px;
+    text-align: center;
+}
